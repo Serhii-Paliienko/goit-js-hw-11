@@ -11,5 +11,5 @@
 @import url('modern-normalize/modern-normalize.css');
 
 /* Sections style */
-@import url('./1-timer.css');
-@import url('./2-snackbar.css');
+@import url('./pixabay-api.css');
+@import url('./render-functions.css');
