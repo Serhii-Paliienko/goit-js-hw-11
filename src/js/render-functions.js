@@ -3,7 +3,11 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const galleryEl = document.querySelector('.gallery');
 const loaderEl = document.querySelector('.loader');
-const lightbox = new SimpleLightbox('.gallery a');
+const lightbox = new SimpleLightbox('.gallery a', {
+  captionsData: 'alt',
+  captionsPosition: 'bottom',
+  captionsDelay: 250,
+});
 
 export function createGallery(images) {
   const markup = images
