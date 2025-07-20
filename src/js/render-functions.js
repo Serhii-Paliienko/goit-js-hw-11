@@ -25,24 +25,24 @@ export function createGallery(images) {
     <a class="gallery-link" href="${largeImageURL}">
       <img class="gallery-image" src="${webformatURL}" alt="${tags}"/>
     </a>
-    <div class="info">
-      <div class="info-item">
+    <ul class="info">
+      <li class="info-item">
         <h4>👍</h4>
         <p>${likes}</p>
-      </div>
-      <div class="info-item">
+      </li>
+      <li class="info-item">
         <h4>👁️</h4>
         <p>${views}</p>
-      </div>
-      <div class="info-item">
+      </li>
+      <li class="info-item">
         <h4>💬</h4>
         <p>${comments}</p>
-      </div>
-      <div class="info-item">
+      </li>
+      <li class="info-item">
         <h4>⬇️</h4>
         <p>${downloads}</p>
-      </div>
-    </div>
+      </li>
+    </ul>
   </li>
   `
     )
